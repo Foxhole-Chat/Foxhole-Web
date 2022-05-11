@@ -1,0 +1,16 @@
+﻿:root
+{
+	--root-background: #151518;
+	--standard-text: #eee;
+}
+
+html { height: 100%; }
+
+body
+{
+	background: var(--root-background);
+	color: var(--standard-text);
+	display: block;
+	height: 100%;
+	margin: 0;
+}

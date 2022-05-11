@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] | Foxhole</title>
+	<link rel="stylesheet" href="~/CSS/Main.css" />
+	<link rel="stylesheet" href="~/CSS/App.css" /> 
+</head>
+<body>
+
+	<header>
+	</header>
+	<div class="app_body">
+		<nav>
+			<div class="burrow-discovery"></div>
+			<div class="burrow-navigation"></div>
+		</nav>
+
+		<main class="fill-flex-space column-flex">
+			@RenderBody()
+		</main>
+
+		<div class="channel-contents"></div>
+	</div>
+
+
+	<footer>
+	</footer>
+</body>
+</html>

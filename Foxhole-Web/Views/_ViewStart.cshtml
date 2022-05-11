@@ -1,0 +1,4 @@
+﻿@{
+	if (Context.Request.RouteValues["controller"]?.ToString() == "Burrow") { Layout = "_App_Layout"; }
+	else { Layout = "_Layout"; }
+}

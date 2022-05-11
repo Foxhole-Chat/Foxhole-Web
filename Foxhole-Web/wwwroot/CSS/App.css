@@ -1,0 +1,59 @@
+﻿.app_body
+{
+	--main-background: #303038;
+	--burrow-discovery-background: #202025;
+	--burrow-navigation-background: #272729;
+
+
+	background: var(--main-background);
+	display: flex;
+	height: 100%;
+	width: 100%;
+}
+
+.app_body > main { padding: 15px; }
+
+.app_body > main > div { height: 100%; }
+
+.app_body > nav { display: flex; }
+
+.app_body > nav > .burrow-discovery
+{
+	background: var(--burrow-discovery-background);
+	box-shadow: 4px 0 4px #0005;
+	padding: 15px;
+	width: 70px;	
+	z-index: 1;
+}
+
+.app_body > nav > .burrow-navigation
+{
+	background: var(--burrow-navigation-background);
+	box-shadow: 3px 0 3px #0004;
+	padding: 15px;
+	width: 170px;
+}
+
+.app_body > .channel-contents
+{
+	background: var(--burrow-navigation-background);
+	box-shadow: -3px 0 3px #0004;
+	padding: 15px;
+	width: 200px;
+}
+
+.chat-input
+{
+	display: flex;
+	margin: 0 auto;
+	height: 30px;
+	width: 95%;
+}
+
+.column-flex
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.fill-flex-space { flex: 1; }
