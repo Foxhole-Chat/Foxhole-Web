@@ -8,6 +8,7 @@ namespace Foxhole_Web.Controllers
 	{
 		public IActionResult Index(string id)
 		{
+			Response.Headers.Add("Access-Control-Allow-Origin", "*");
 			return View();
 		}
 	}
